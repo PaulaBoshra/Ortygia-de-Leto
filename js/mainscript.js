@@ -56,7 +56,7 @@ $(function () {
       }
     }
    
-    var message = ' Welcome at J-opera';
+    var message = ' Hello, I am Paula Boshra. ';
     var i = 0; 
     var interval = setInterval(tapeWriter, 80);
 
