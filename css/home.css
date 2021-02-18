@@ -32,7 +32,7 @@
 }
 
 .scrolled{
-    background: #1c1a3c !important;
+    background: #1908ff !important;
 }
 
 /* header section */
@@ -70,7 +70,7 @@
 }
 
 .overview a.btn:hover{
-    background: #fc8350;
+    background:#5078fc;
     color: #fff;
 }
 
@@ -83,7 +83,7 @@
 
 .features svg{
     color: #fff;
-    background-color: #fc8350;
+    background-color:#5078fc;
     border-radius: 50%;
     width: 60px !important;
     padding: 10px;
