@@ -44,7 +44,7 @@
     bottom:0;
     left:0;
     right:0;
-    background-color: rgba(17, 0, 255, 0.5);
+    background-color: rgba(17, 0, 255, 0);
 }
 
 
@@ -52,7 +52,7 @@
 
 .carousel-caption h5{font-size: 4rem; text-transform: capitalize;}
 
-.carousel-caption p{color: #000000;}
+.carousel-caption p{color: #ffffff;}
 
 /* start overview section */
 
