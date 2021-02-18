@@ -27,12 +27,12 @@
 @media (max-width: 991.98px) {
     .navbar {
         position: inherit !important;
-        background: #fbfbfb !important;
+        background:#5078fc !important;
     }
 }
 
 .scrolled{
-    background: #1c1a3c !important;
+    background: #1100ff !important;
 }
 
 /* header section */
@@ -44,7 +44,7 @@
     bottom:0;
     left:0;
     right:0;
-    background-color: rgba(28,26,59,0.5);
+    background-color: rgba(17, 0, 255, 0.5);
 }
 
 
@@ -61,7 +61,7 @@
  }
 
 .overview a.btn{
-    color: #1c1a3c;
+    color: #1100ff;
     border: 1px solid;
     padding: 8px 60px;
     border-radius: 25px;
@@ -71,7 +71,7 @@
 }
 
 .overview a.btn:hover{
-    background: #fc8350;
+    background: #5078fc;
     color: #fff;
 }
 
@@ -87,7 +87,7 @@
 
 .features svg{
     color: #fff;
-    background-color: #fc8350;
+    background-color: #5078fc;
     border-radius: 50%;
     width: 60px !important;
     padding: 10px;
