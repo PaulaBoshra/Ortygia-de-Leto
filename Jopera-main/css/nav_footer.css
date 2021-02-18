@@ -1,0 +1,104 @@
+/* start navbar section */
+
+.navbar{
+    transition: 0.5s ease-in-out;
+    background: #fcfcfc !important;
+}
+
+a.navbar-brand {color: #0b0b15 !important;}
+
+a.navbar-brand p{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+    font-weight: 300;
+    left: -8px;
+}
+
+a.navbar-brand .logo-title{font-weight: bold; text-transform: uppercase;}
+
+a.navbar-brand .logo-subtitle {
+    font-size: 9px;
+    letter-spacing: 0.6px;
+    padding: 0 3px;
+}
+
+.nav-link{
+    color: #9a999c !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 0.67rem !important;
+}
+
+.nav-link:hover{color: #fc8350 !important; background: rgba(255, 255, 255, 0.1);}
+
+.dropdown-toggle::after{margin-left: 0.15em !important;}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fc8350 !important;
+}
+
+
+#navbarNavDropdown {
+    transition: 0.5s ease-in-out;   
+}
+
+.navbar .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 97% !important;
+    width: 775px;
+}
+
+.navbar .dropdown-menu p{
+    color: #fcfcfc;
+    margin-left: 20px;
+}
+
+.dropdown-item{color: #eee; font-size: 0.85rem; padding-bottom: 3px; text-transform: capitalize;}
+
+.dropdown-item:hover{ background-color: none !important; font-size: 0.85rem;}
+
+.navbar .dropdown-menu svg{margin-right: 5px;}
+
+/* start footer section */
+
+footer{padding: 50px 0; background: #000;}
+
+@media (max-width: 576px) {
+    footer .row > div{margin-bottom: 30px;}
+}
+
+footer h4{color: #ccc; margin-bottom: 20px;}
+
+footer ul{list-style: none; padding-left: 0;}
+
+footer li{margin: 8px 0;}
+
+footer .keep-in-touch li{margin: 22px 0; font-size: 1.05rem;}
+
+footer a, footer p{color: #676767;}
+
+footer a:hover{color: #ccc; text-decoration: none;}
+
+footer img{margin-top: -10px; width: 150px;}
+
+footer hr{background-color: #aaa;}
+
+.rights{color: #ccc; margin-top: -5px;}
+
+@media (max-width: 576px) {
+    .rights{font-size: 13px; text-align: center;}
+    .rights h6:last-of-type{
+        margin-top: 20px;
+        float: unset !important;
+        display: block;
+    }
+    footer h5{font-size: 17px;}
+}
+
+footer p{
+    margin-left: 10px;
+}
+
+.rights h6{display: inline; font-size: 0.75rem;}
